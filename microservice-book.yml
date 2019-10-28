@@ -1,0 +1,8 @@
+﻿server:
+  port: 8030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+    instance:
+      prefer-id-address: true
